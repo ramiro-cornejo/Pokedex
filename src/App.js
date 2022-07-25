@@ -1,11 +1,16 @@
 
 import './App.css';
+import Navbar from './componentes/Navbar';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>PokedexApi</h1>
+    <div>
+      <Navbar/>
+      <div className='App'>
+      <h1>Inicio pokeApi</h1>
+      </div>
     </div>
+    
   );
 }
 
