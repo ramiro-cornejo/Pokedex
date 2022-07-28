@@ -25,6 +25,7 @@ const Searchbar = () => {
             <div className="searchbar-btn">
                 <button onClick={onClick}>Buscar</button>
             </div>
+            
         </div>
     );
 };
