@@ -3,7 +3,6 @@ import '../Pokemon/Pokemon.css'
 
 const Pokemon = (props) => {
     const {pokemon} = props;
-    console.log(pokemon)
 
     return(
         <div className="pokemon-card">
