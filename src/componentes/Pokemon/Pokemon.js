@@ -4,6 +4,8 @@ import '../Pokemon/Pokemon.css'
 const Pokemon = (props) => {
     const {pokemon} = props;
 
+    const redHeart = "&#10084;&#65039;";
+    const blackHeart = "🖤";
     return(
         <div className="pokemon-card">
             <div className="pokemon-img-container">
@@ -24,7 +26,10 @@ const Pokemon = (props) => {
                         )
                     })}
                     </div>
-                    <div className="pokemon-favorite">❤</div>
+                    <button>
+                        <div className="pokemon-favorite">{blackHeart}</div>
+                    </button>
+                    
                 </div>
             </div>
         </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
                 <img src={imgUrl} alt="pokeapi-logo" className="navbar-image" />
             </div>
             </div>
-            <div>❤</div>
+            <div>&#10084;&#65039; {100}</div>
         
         </nav>
     );
